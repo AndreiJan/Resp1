@@ -1,5 +1,2 @@
-Hello world. 
-
-sign on the far right of the side
-U - updated
-This is a new edit
+This is the first file.
+First Time using Github and testing the commands
