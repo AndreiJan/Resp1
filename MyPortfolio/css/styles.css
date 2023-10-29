@@ -1,0 +1,146 @@
+html{
+    box-sizing: border-box;
+}
+ *, *:before, *:after{
+    box-sizing: inherit
+ }
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.open{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0 auto;
+    padding: 40px;
+    padding-left: 540px;
+    padding-right: 540px;
+    border: 1px solid black;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    position: sticky;
+    top:0;
+    background-color: black;
+}
+
+.nav div{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+.nav a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+header{
+    border-bottom: 3px dashed black;
+    font-family: sans-serif;
+    font-size: 60px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/017/025/097/non_2x/green-creeper-plant-fern-orchid-vine-or-ivy-and-leaves-wall-for-background-in-vintage-tone-natural-wallpaper-or-nature-pattern-freshness-season-free-photo.jpg');
+}
+
+.div1{
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    border: 4px solid white;
+    border-radius: 30px;
+}
+
+.info {
+    background-color: white;
+    margin: 0 auto;
+    padding: 150px;
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+
+.project-item p{
+    overflow: hidden;
+}
+
+.project-item h2{
+    margin-top: 7px;
+}
+.project-item{
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow: hidden;
+    border-bottom: 1px dashed black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;    
+    list-style: circle;
+}
+.project-item img{
+    float:left;
+    margin-right:30px;
+
+    
+    
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columns {
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.layout{
+    height: 200px;
+    background-color: blue;
+}
+
+
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+a:hover{
+    color: gray
+
+}
+ol{
+    list-style:none;
+}
+
+
+footer{
+    height: 300px;
+    background-color: rgb(60, 116, 60);
+    padding: 50px;
+    color: white;
+}
+.sd{
+    overflow: hidden;
+}

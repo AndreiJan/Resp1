@@ -1,0 +1,14 @@
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: white;
+}
+img {
+    width:100px;
+    height:67px;
+    float:left;
+}
+div {
+    overflow:hidden;
+}
